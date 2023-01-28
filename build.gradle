@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'com.bk1team'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 17
+targetCompatibility = 17
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.lwjgl:lwjgl:3.2.3'
+    implementation 'org.lwjgl:lwjgl-glfw:3.2.3'
+    implementation 'org.lwjgl:lwjgl-opengl:3.2.3'
+    implementation 'org.openjfx:javafx-base:17'
+    implementation 'org.openjfx:javafx-graphics:17'
+    implementation 'org.openjfx:javafx-controls:17'
+}
+
+task run(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'com.bk1team.GamepadExample'
+}
