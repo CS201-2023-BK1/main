@@ -1,0 +1,41 @@
+Initialized native services in: /Users/johnnybyzhang/.gradle/native
+Initialized jansi services in: /Users/johnnybyzhang/.gradle/native
+Received JVM installation metadata from '/opt/homebrew/Cellar/openjdk@17/17.0.6/libexec/openjdk.jdk/Contents/Home': {JAVA_HOME=/opt/homebrew/Cellar/openjdk@17/17.0.6/libexec/openjdk.jdk/Contents/Home, JAVA_VERSION=17.0.6, JAVA_VENDOR=Homebrew, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=17.0.6+0, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=17.0.6+0, VM_VENDOR=Homebrew, OS_ARCH=aarch64}
+The client will now receive all logging from the daemon (pid: 48865). The daemon log file: /Users/johnnybyzhang/.gradle/daemon/7.6/daemon-48865.out.log
+Starting 10th build in daemon [uptime: 47 mins 45.122 secs, performance: 99%, non-heap usage: 26% of 256 MiB]
+Using 10 worker leases.
+Now considering [/Users/johnnybyzhang/main] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/johnnybyzhang/main/settings.gradle'.
+Projects loaded. Root project using build file '/Users/johnnybyzhang/main/build.gradle'.
+Included projects: [root project 'main']
+
+> Configure project :
+Evaluating root project 'main' using build file '/Users/johnnybyzhang/main/build.gradle'.
+All projects evaluated.
+Task name matched 'run'
+Selected primary task 'run' from project :
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':run']
+Tasks that were excluded: []
+Resolve mutations for :compileJava (Thread[Execution worker,5,main]) started.
+:compileJava (Thread[Execution worker,5,main]) started.
+
+> Task :compileJava FAILED
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Task ':compileJava' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':compileJava'.
+Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+Compiling with toolchain '/opt/homebrew/Cellar/openjdk@17/17.0.6/libexec/openjdk.jdk/Contents/Home'.
+Compiling with JDK Java compiler API.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.6/userguide/command_line_interface.html#sec:command_line_warnings
+1 actionable task: 1 executed
+Watched directory hierarchies: [/Users/johnnybyzhang/main]
