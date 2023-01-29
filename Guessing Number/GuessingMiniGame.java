@@ -158,7 +158,7 @@ class Main extends JFrame
             rand=(int) (Math.random()*100);
             guess.setText("");
             totalguess.setText("");
-            trylabel.setText("Try and guess it !");
+            trylabel.setText("");
             totalguess.setText("");
             count=0;
             guess.setEditable(true);
